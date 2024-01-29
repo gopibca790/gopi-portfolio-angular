@@ -1,0 +1,37 @@
+ul,li,a{
+    display: inline;
+    text-decoration: none;
+    color: greenyellow;
+    margin-right: 30px;
+    font-size: 30px;
+    
+}
+h1{
+    color: red;
+    display: inline-block;
+    margin-right: 210px;
+}
+a:hover{
+    color: yellow;
+}
+.content{
+    float: right;
+    display: inline;
+}
+.name{
+    line-height: 4px;
+    display: inline-block;
+    font-size: 30px;
+    color: red;
+    margin: 16px;
+    
+}
+main{
+@media (min-width:1024px) and (max-width:1440px) {
+ 
+}
+
+@media (min-width:375px) and (max-width:768px) {
+ 
+}
+}

@@ -1,0 +1,31 @@
+ul,li,a{
+    text-decoration: none;
+    display: inline-block;
+    color: violet;
+    margin-right: 30px;
+    font-size: 30px;
+    margin-bottom: 0px;
+  
+}
+.nav{
+  
+  align-items:end;
+  
+}
+ a:hover{
+  color: rgb(6, 181, 250);
+ 
+}
+.footer{
+  text-align: center;
+  
+}
+div.footer{
+@media (min-width:1024px) and (max-width:1440px) {
+ 
+}
+
+@media (min-width:375px) and (max-width:768px) {
+ 
+}
+}
