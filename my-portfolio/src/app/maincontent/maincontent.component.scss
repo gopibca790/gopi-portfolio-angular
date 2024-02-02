@@ -1,14 +1,23 @@
 section{
-  background-color: rgb(156, 221, 241);
+  background-color:black;
   height: 400px;
   width: 100%;
   text-align: center;
+  display: flex;
+ 
 }
-.main{
-    color: blue;
+main{
+    color: #fff;
+    background-color: #080808;
+    margin: 0;
+  padding: 0;
+  font-family: "poppins",sans-serif;
+  box-sizing: border-box;
 }
+
+
 span{
-    color: rgb(131, 51, 5);
+    color: rgb(243, 7, 7);
 }
 .photo{
     width: 200px;
@@ -24,7 +33,7 @@ h1,p,h2,div{
 }
 .div1{
     display: inline;
-    float: left;
+    width: 400px;
 
 }
 p{
@@ -49,12 +58,45 @@ aside{
     font-size: 24px;
     text-align: center;
 }
-section{
+
+.media,img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -88px;
+    padding: 0;
+    // box-sizing: border-box;
+    align-items: center;
+    position: relative;
+
+}
+div.media {
+    display: flex;
+     border-radius: 10%;
+    margin-top: -34px;
+    width: 594px;
+     height: 44px;
+    float: right;
+    img{
+        margin-right: 20px;
+        color: rgb(47, 179, 255);
+        box-shadow: 0px 0px 3px 5px;
+    }
+    
+}
+a:hover{
+    background-color: rgb(4, 137, 247);
+    border-radius:  40%;
+}
+
+// a:hover{
+//      color: rgb(255, 47, 175);
+//      cursor: pointer;
+// }
 @media (min-width:1024px) and (max-width:1440px) {
  
 }
 
 @media (min-width:375px) and (max-width:768px) {
  
-}
 }

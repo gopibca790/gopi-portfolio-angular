@@ -1,4 +1,4 @@
-step1:git clone repository url
+step1:git clone repository url  /  git pull
 git status
 step2:git add .
 git ststus
@@ -6,3 +6,7 @@ git ststus
 step3:- git commit -m "message"
 git status
 step5:- git push
+
+
+
+

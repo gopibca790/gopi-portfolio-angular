@@ -7,9 +7,29 @@ ul,li,a{
     margin-bottom: 0px;
   
 }
+footer{
+  background-color: blue;
+}
+// .footer ul li a::after{
+//   content: "";
+  
+//   width: 0;
+//   height: 3px;
+//   position: absolute;
+//    left: 25px;
+//    bottom: -6px;
+//   transition: 0.5s;
+// }
+// .footer ul li a:hover::after{
+//   width: 100%;
+//   color: blue;
+// }
+
 .nav{
   
   align-items:end;
+  height: 20%;
+  width: 100%;
   
 }
  a:hover{
@@ -20,12 +40,14 @@ ul,li,a{
   text-align: center;
   
 }
-div.footer{
+// div.footer{
+
+// }
+  @media (min-width:375px) and (max-width:767px) {
+ 
+  }
 @media (min-width:1024px) and (max-width:1440px) {
  
 }
 
-@media (min-width:375px) and (max-width:768px) {
- 
-}
-}
+
