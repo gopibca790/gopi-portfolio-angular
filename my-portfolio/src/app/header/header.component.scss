@@ -4,7 +4,7 @@ ul,li,a{
     color: greenyellow;
     margin-right: 30px;
     font-size: 30px;
-    
+ 
 }
 // div ul li a::after{
 //     content: " ";
@@ -20,6 +20,7 @@ nav.content:hover{
      transform: scale(1.2);
     // color: aqua;
     // font-size: 50px;
+
 }
 
 
@@ -28,6 +29,7 @@ nav::content{
     width: 0px;
     height: 0px;
     transition: transform 0.3s ease-in-out;
+   
 } 
 div ul li a:hover::after{
     width: 0%;
@@ -41,6 +43,7 @@ a:hover{
     float: right;
     display: inline;
     padding-right: 460px;
+    
 }
 .name{
     line-height: 4px;
@@ -48,7 +51,7 @@ a:hover{
     font-size: 30px;
     color: red;
     margin: 0px;
-    
+    position: fixed;
 }
 
 

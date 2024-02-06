@@ -5,10 +5,10 @@ ul,li,a{
     margin-right: 30px;
     font-size: 30px;
     margin-bottom: 0px;
-  
 }
 footer{
   background-color: black;
+
   
 }
 // .footer ul li a::after{
@@ -31,7 +31,7 @@ footer{
   align-items:end;
   height: 20%;
   width: 100%;
-  
+  margin-top: 60px;
 }
  a:hover{
   color: rgb(6, 181, 250);
@@ -51,6 +51,7 @@ div.contact{
   float:left;
   text-align: center;
   padding: 0px 0px 0px 275px;
+ 
   img{
       margin-right: 50px;
       color: rgb(47, 179, 255);
@@ -58,8 +59,10 @@ div.contact{
       width: 55px;
       height: 55px;
       border-radius: 40%;
+    
       a:hover{
         background-color: aqua;
+        
       }
   }
 }
