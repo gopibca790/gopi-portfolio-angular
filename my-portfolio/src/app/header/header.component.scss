@@ -1,10 +1,24 @@
-ul,li,a{
+a{
+    display: inline;
+    text-decoration: none;
+    color: greenyellow;
+    // margin-right: 30px;
+    font-size: 30px;
+ 
+}
+li{
     display: inline;
     text-decoration: none;
     color: greenyellow;
     margin-right: 30px;
+    font-size: 30px; 
+}
+ul
+{
+    display: inline;
+    text-decoration: none;
+    color: greenyellow;
     font-size: 30px;
- 
 }
 // div ul li a::after{
 //     content: " ";
@@ -16,7 +30,7 @@ ul,li,a{
 //     transition: 0.5s;
   
 // }
-nav.content:hover{
+.content:hover{
      transform: scale(1.2);
     // color: aqua;
     // font-size: 50px;
@@ -40,18 +54,53 @@ a:hover{
     color: yellow;
 }
 .content{
-    float: right;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    width: 98.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // z-index: 100;
+    margin-left: 0;
+    background: transparent;
+    margin-top: 0px;
     display: inline;
-    padding-right: 460px;
-    
+    padding: 4px 43px 4px 621px;
+    // padding: 20px;
+    position: fixed;
+    float: right;
+    transition: .3s;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    // margin-top: 0px;
+    // display: inline;
+    // padding: 4px 43px 4px 621px;
+    // // padding: 20px;
+    // position: fixed;
+    // float: right;
+    // transition: .3s;
+    // background: transparent;
+    // backdrop-filter: blur(10px);
 }
 .name{
     line-height: 4px;
     display: inline-block;
     font-size: 30px;
     color: red;
-    margin: 0px;
+    margin: 9px;
     position: fixed;
+    transition: .3s;
+    background: transparent;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+@media (min-width:1024px) and (max-width:1440px) {
+ 
+}
+
+@media (min-width:375px) and (max-width:768px) {
+ 
 }
 
 
