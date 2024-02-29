@@ -31,7 +31,7 @@ h1,p,h2,div{
     display: inline-block;
     float: left;
     font-size: 24px;
-
+    
 }
 .div1{
     display: inline;
@@ -56,7 +56,10 @@ h2{
 p#home{
     padding: 5px 12px;   
     margin: 0px 0px;
- 
+   
+}
+#home:hover{
+    transform: scale(1.2);
 }
 aside{
     font-size: 24px;
@@ -78,7 +81,7 @@ div.media {
     display: flex;
      border-radius: 40%;
     margin-top: -95px;
-    width: 594px;
+    width: 500px;
      height: 40px;
     float: right;
     
@@ -118,11 +121,13 @@ button:hover{
 // a:hover{
 //      color: rgb(255, 47, 175);
 //      cursor: pointer;
-// }
-@media (min-width:1024px) and (max-width:1440px) {
- 
-}
 
-@media (min-width:375px) and (max-width:768px) {
+
+// @media (min-width:375px) and (max-width:667px) {
  
-}
+// }
+// @media (min-width:414px) and (max-width:896px) {
+ 
+// }
+
+

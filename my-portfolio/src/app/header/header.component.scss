@@ -30,12 +30,12 @@ ul
 //     transition: 0.5s;
   
 // }
-.content:hover{
-     transform: scale(1.2);
-    // color: aqua;
-    // font-size: 50px;
+// .content:hover{
+//      transform: scale(1.2);
+//     // color: aqua;
+//     // font-size: 50px;
 
-}
+// }
 
 
 nav::content{
@@ -93,15 +93,16 @@ a:hover{
     transition: .3s;
     background: transparent;
     z-index: 100;
-    backdrop-filter: blur(10px);
+    // backdrop-filter: blur(10px);
 }
-@media (min-width:1024px) and (max-width:1440px) {
+// @media (min-width:1024px) and (max-width:1440px) {
+ 
+// }
+
+@media (min-width:290px) and (max-width:768px) {
  
 }
 
-@media (min-width:375px) and (max-width:768px) {
- 
-}
 
 
 
@@ -127,39 +128,38 @@ a:hover{
 
 
 
+// @media (min-width:320px) and (max-width:767px) {
+//     .content{
+//         margin-right: 5px;
+//         font-size: 15px;
+//     }   
 
-@media (min-width:320px) and (max-width:767px) {
-    .content{
-        margin-right: 5px;
-        font-size: 15px;
-    }   
-
-    ul,li{
-        margin-right: 5px;
-    font-size: 12px
-     }
+//     ul,li{
+//         margin-right: 5px;
+//     font-size: 12px
+//      }
     
-    // .header{max-width: 700px ;
-    //          width: 80%;  }
-    .name{
-        color: green;
-        font-size: 21px;
-    }
-    ul,li,a{
-        margin-right: 10px;
-        font-size: 24px;
-    }
+//     // .header{max-width: 700px ;
+//     //          width: 80%;  }
+//     .name{
+//         color: green;
+//         font-size: 21px;
+//     }
+//     ul,li,a{
+//         margin-right: 10px;
+//         font-size: 24px;
+//     }
 
         
-    }
+//     }
     
-@media (min-width:768px) and (max-width:1024px) {
-    .name{
-        color: yellow;}
+// @media (min-width:768px) and (max-width:1024px) {
+//     .name{
+//         color: yellow;}
     
 
 
-}
+// }
 
 
 
