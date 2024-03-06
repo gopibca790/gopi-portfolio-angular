@@ -51,7 +51,9 @@ div ul li a:hover::after{
 }
 
 a:hover{
-    color: yellow;
+    color: rgb(163, 110, 12);
+    transform: scale(1.2);
+    
 }
 .content{
     position: fixed;
@@ -66,7 +68,7 @@ a:hover{
     background: transparent;
     margin-top: 0px;
     display: inline;
-    padding: 4px 43px 4px 621px;
+    padding: 4px 43px 4px 583px;
     // padding: 20px;
     position: fixed;
     float: right;
@@ -89,7 +91,7 @@ a:hover{
     font-size: 30px;
     color: red;
     margin: 9px;
-    position: fixed;
+    // position: fixed;
     transition: .3s;
     background: transparent;
     z-index: 100;
@@ -99,9 +101,13 @@ a:hover{
  
 // }
 
-@media (min-width:290px) and (max-width:768px) {
+// @media (min-width:290px) and (max-width:768px) {
  
-}
+// }
+
+@media only screen and (min-width: 290px) and (max-width: 500px) {
+
+  }
 
 
 
@@ -126,40 +132,38 @@ a:hover{
 
 
 
+@media (min-width:320px) and (max-width:767px) {
+    .content{
+        
+        font-size: 50px;
+    }   
 
-
-// @media (min-width:320px) and (max-width:767px) {
-//     .content{
-//         margin-right: 5px;
-//         font-size: 15px;
-//     }   
-
-//     ul,li{
-//         margin-right: 5px;
-//     font-size: 12px
-//      }
+    ul,li{
+        margin-right: 5px;
+    font-size: 12px
+     }
     
-//     // .header{max-width: 700px ;
-//     //          width: 80%;  }
-//     .name{
-//         color: green;
-//         font-size: 21px;
-//     }
-//     ul,li,a{
-//         margin-right: 10px;
-//         font-size: 24px;
-//     }
+    // .header{max-width: 700px ;
+    //          width: 80%;  }
+    .name{
+        color: green;
+        font-size: 21px;
+    }
+    ul,li,a{
+        margin-right: 10px;
+        font-size: 24px;
+    }
 
         
-//     }
+    }
     
-// @media (min-width:768px) and (max-width:1024px) {
-//     .name{
-//         color: yellow;}
+@media (min-width:768px) and (max-width:1024px) {
+    .name{
+        color: yellow;}
     
 
 
-// }
+}
 
 
 

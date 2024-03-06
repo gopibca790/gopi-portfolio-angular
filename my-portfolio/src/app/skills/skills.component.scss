@@ -3,13 +3,14 @@ P{
     background-color:black;
     font-size: 24px;
     font-family: "poppins", sans-serif;
-    padding: 40px 128px 0px 128px;
+    padding: 7px 128px 0px 128px;
 }
 .skills{
     font-size: 30px;
     color: red;
     margin-bottom: 0px;
-    margin-top: 150px;
+    margin-top: 0px;
+    padding-top: 40px;
 }
 img{
     height: 60px;
@@ -27,6 +28,9 @@ img{
 }
 .html{
     margin-left: 164px;
+}
+@media only screen and (min-width: 290px) and (max-width: 500px) {
+
 }
 // @media (min-width:1024px) and (max-width:1440px) {
  
